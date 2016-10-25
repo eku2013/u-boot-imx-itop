@@ -1,0 +1,5 @@
+#CROSS_COMPILE= 可以指定你系统中的交叉编译器.export CROSS_COMPILE=/opt/EmbedSky/tools/4.6.2-imx6_linux/bin/arm-linux-
+export ARCH=arm
+export CROSS_COMPILE=arm-none-linux-gnueabi-
+make mx6qarm2 
+make -j8
